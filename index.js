@@ -94,6 +94,11 @@ const makeBoard = () => {
             gameOver = true
             clearBoard()
         }
+        else if (i == 9) {
+            alert("The game was a tie!")
+            gameOver = true
+            clearBoard()
+        }
     }
 
     const makeMove = (markerPlayerOne, markerPlayerTwo) => {
