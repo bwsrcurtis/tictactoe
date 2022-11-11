@@ -33,7 +33,7 @@ h1 {
     background-color: var(--board-color);
     width: var(--board-dimension);
     height: var(--board-dimension);
-    margin: 5% auto;
+    margin: 2% auto;
     display: grid;
     grid-template-rows: calc(var(--board-dimension) / 3) calc(var(--board-dimension) / 3) calc(var(--board-dimension) / 3);
     grid-template-columns: calc(var(--board-dimension) / 3) calc(var(--board-dimension) / 3) calc(var(--board-dimension) / 3);
@@ -56,4 +56,11 @@ h1 {
     top: calc(-8%);
     min-width: 100%;
     min-height: 100%;
+}
+
+.game-info {
+    margin-top: 2.5%;
+}
+.game-info > h1 {
+    color: var(--accent-color)
 }
