@@ -3,7 +3,7 @@
     --accent-color: #fca311;
     --board-color: #14213d;
     --text-color: #e5e5e5;
-    --board-dimension: 45vw;
+    --board-dimension: 30vw;
 }
 
 :root, body, html {
